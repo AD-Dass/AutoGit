@@ -16,7 +16,7 @@ def main():
     print(fill)
     driver.get("https://www.github.com/login")
     element = driver.find_element_by_xpath("/html/body/div[3]/main/div/div[4]/form/input[2]") #input for username
-    element.send_keys("araan@hotmail.co.uk")
+    element.send_keys("") #Input your e_mail address or username
     element = driver.find_element_by_xpath("/html/body/div[3]/main/div/div[4]/form/input[3]") #input for password
     element.send_keys("")
     element.submit()
